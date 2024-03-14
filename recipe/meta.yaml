@@ -1,5 +1,5 @@
 {% set name = "dask-expr" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3dc70987fdc9d7fc73852dbfb17efa2527e3231f80d1d89e13b646c41e708286
+  sha256: 8718c7634f2148263d3a4b8e0d520279d059bc9816438ddf105fa712e10ee938
 
 build:
   noarch: python
@@ -35,15 +35,15 @@ test:
     - pip check
 
 about:
-  home: https://github.com/dask-contrib/dask-expr
+  home: https://github.com/dask/dask-expr
   summary: 'High Level Expressions for Dask'
   description: |
     High Level Expressions for Dask
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  doc_url: https://github.com/dask-contrib/dask-expr/blob/main/README.md
-  dev_url: https://github.com/dask-contrib/dask-expr
+  doc_url: https://github.com/dask/dask-expr/blob/main/README.md
+  dev_url: https://github.com/dask/dask-expr
 
 extra:
   recipe-maintainers:
