@@ -35,15 +35,15 @@ test:
     - pip check
 
 about:
-  home: https://github.com/dask-contrib/dask-expr
+  home: https://github.com/dask/dask-expr
   summary: 'High Level Expressions for Dask'
   description: |
     High Level Expressions for Dask
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  doc_url: https://github.com/dask-contrib/dask-expr/blob/main/README.md
-  dev_url: https://github.com/dask-contrib/dask-expr
+  doc_url: https://github.com/dask/dask-expr/blob/main/README.md
+  dev_url: https://github.com/dask/dask-expr
 
 extra:
   recipe-maintainers:
