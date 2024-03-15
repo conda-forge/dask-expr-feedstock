@@ -3,15 +3,15 @@ About dask-expr-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-expr-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/dask-contrib/dask-expr
+Home: https://github.com/dask/dask-expr
 
 Package license: BSD-3-Clause
 
 Summary: High Level Expressions for Dask
 
-Development: https://github.com/dask-contrib/dask-expr
+Development: https://github.com/dask/dask-expr
 
-Documentation: https://github.com/dask-contrib/dask-expr/blob/main/README.md
+Documentation: https://github.com/dask/dask-expr/blob/main/README.md
 
 High Level Expressions for Dask
 
