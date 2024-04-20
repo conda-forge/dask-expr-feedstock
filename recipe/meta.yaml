@@ -22,7 +22,7 @@ requirements:
     - tomli
   run:
     - python >=3.9
-    - dask-core ==2024.4.1
+    - dask-core ==2024.4.2
     - pyarrow
     - pandas >=2
 
