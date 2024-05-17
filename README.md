@@ -154,6 +154,3 @@ Feedstock Maintainers
 * [@jrbourbeau](https://github.com/jrbourbeau/)
 * [@phofl](https://github.com/phofl/)
 
-
-<!-- dummy commit to enable rerendering -->
-
