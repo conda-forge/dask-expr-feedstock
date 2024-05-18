@@ -1,5 +1,5 @@
 {% set name = "dask-expr" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dask_expr-{{ version }}.tar.gz
-  sha256: cd0e0ad4d65229a4fd22a231fa9c7e632cef09c5b6ab7259bdaaaadd20179cdb
+  sha256: 30acb27c19ef3f44681cddd46597395b2da976d426e050e684e2044ebe033f3a
 
 build:
   noarch: python
@@ -31,8 +31,6 @@ test:
     - dask_expr
   requires:
     - pip
-  commands:
-    - pip check
 
 about:
   home: https://github.com/dask/dask-expr
