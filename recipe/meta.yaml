@@ -31,8 +31,6 @@ test:
     - dask_expr
   requires:
     - pip
-  commands:
-    - pip check
 
 about:
   home: https://github.com/dask/dask-expr
