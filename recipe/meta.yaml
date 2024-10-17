@@ -1,5 +1,5 @@
 {% set name = "dask-expr" %}
-{% set version = "1.1.15" %}
+{% set version = "1.1.16" %}
 
 package:
   name: {{ name|lower }}
@@ -18,12 +18,13 @@ requirements:
   host:
     - python >=3.10
     - pip
+    - setuptools >=62.6
     - versioneer =0.28
     - tomli
   run:
     - python >=3.10
-    - dask-core ==2024.9.1
-    - pyarrow
+    - dask-core ==2024.10.0
+    - pyarrow >=14.0.1
     - pandas >=2
 
 test:
