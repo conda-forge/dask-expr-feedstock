@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dask_expr-{{ version }}.tar.gz
-  sha256: d12fd1b6cd49aa9d5b1e187b243117eb58b1f9dda555b26a3bd31be10a27e236
+  sha256: 9dd26886f270f373380b38dd2d41ce4321b2724e0814ea5043272cebf7f1b6bb
 
 build:
   noarch: python
