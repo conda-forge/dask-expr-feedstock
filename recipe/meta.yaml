@@ -23,7 +23,7 @@ requirements:
     - tomli
   run:
     - python >=3.10
-    - dask-core == {{ pin_compatible('dask-core', max_pin='x.x.x') }}
+    - {{ pin_compatible('dask-core', max_pin='x.x.x') }}
     - pyarrow >=14.0.1
     - pandas >=2
 
