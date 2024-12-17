@@ -1,6 +1,6 @@
 {% set python_min = '3.10' %}
 {% set name = "dask-expr" %}
-{% set version = "1.1.20" %}
+{% set version = "1.1.21" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dask_expr-{{ version }}.tar.gz
-  sha256: c5be6243296c299e21e02aa93e863e28e6f21ab3c01b645cec3dd56e1b1eac9b
+  sha256: eb45de8e6fea1ce2608a431b4e03a484592defb1796665530c91386ffac581d3
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - tomli
   run:
     - python >={{ python_min }}
-    - dask-core ==2024.12.0
+    - dask-core ==2024.12.1
     - pyarrow >=14.0.1
     - pandas >=2
 
